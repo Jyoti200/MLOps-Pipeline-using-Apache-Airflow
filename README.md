@@ -1,21 +1,18 @@
 # MLOps-Pipeline-using-Apache-Airflow
 Machine Learning Operations (MLOps) integrates machine learning model development and deployment into a robust, automated pipeline. 
-This repository provides a guide on automating the preprocessing of data using Apache Airflow. It includes step-by-step instructions to set up and run an Apache Airflow instance inside Docker, and perform tasks like data preprocessing, transformation, and automation using Airflow's DAGs.
+This repository provides a guide on automating data preprocessing using Apache Airflow. It includes step-by-step instructions to set up and run an Apache Airflow instance inside Docker, and perform tasks like data preprocessing, transformation, and automation using Airflow's DAGs.
 
 Prerequisites
 Before you start, make sure the following tools are installed on your machine:
 
 Docker - To run Apache Airflow and dependencies in containers.
 
-Install Docker Desktop from here.
+Install Docker Desktop. Enable WSL 2 integration on installing Docker. 
 Python - For managing virtual environments and running scripts.
-
-Install Python from here.
 Apache Airflow - To create workflows for automating data preprocessing.
-
 This is installed inside a Docker container.
 Setting Up the Environment
-Follow the steps below to get started with Apache Airflow and set up your data preprocessing pipeline.
+Follow the steps below to start with Apache Airflow and set up your data preprocessing pipeline.
 
 1. Clone the Repository
 git clone <MLOps-Pipeline-using-Apache-Airflow>
