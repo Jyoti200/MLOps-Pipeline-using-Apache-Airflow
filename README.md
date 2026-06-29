@@ -75,6 +75,7 @@ docker-compose up --build
 If you need to make changes to the Airflow configuration, update the docker-compose.yaml file or any Airflow configuration files. Be sure to restart the Docker containers after making changes.
 
 File Structure
+
 folder/
 ├── airflow_project/
 │   ├── dags/
@@ -84,5 +85,6 @@ folder/
 │   │   └── data.csv                     # Dataset
 ├── docker-compose.yaml                 # Docker Compose file to run Airflow in containers
 └── README.md                           # Documentation for setting up the project
+
 Conclusion
 With this setup, you have automated your data preprocessing pipeline using Apache Airflow, running inside Docker. The system allows for easy scheduling, monitoring, and management of data workflows, making it ideal for building scalable, production-ready pipelines.
